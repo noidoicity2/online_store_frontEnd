@@ -5,4 +5,156 @@
  */
 body {
     padding-top: 56px;
+    font-family: sans-serif;
+    border: 0;
+    /*background:radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);*/
+    /*background: linear-gradient(90deg, rgba(0,212,255,1) 10%, rgba(49,121,9,0.006039915966386533) 77%, rgba(2,0,36,1) 95%);*/
+
+    background: hsla(332, 53%, 82%, 1);
+
+    background: linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(332, 53%, 82%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e9b7ce", endColorstr="#d3f3f1", GradientType=1);
+}
+
+nav {
+    /*background: linear-gradient(90deg, rgba(0,212,255,1) 10%, rgba(49,121,9,0.006039915966386533) 77%, rgba(2,0,36,1) 95%);*/
+    padding-bottom: 0 !important;
+    background-color: #313131;
+}
+
+.navbar-toggler {
+    color: #1b1e21 !important;
+    background-color: #1b1e21;
+}
+
+.main-content {
+    margin-top: 10px;
+}
+
+
+/*.list-item {*/
+/*    background-image: url("../images/0113-khaitruong-tin-tuc-2.jpg") !important; ;*/
+/*    background-size: auto;*/
+/*    background-position: top;*/
+/*}*/
+nav a {
+    color: #ffffff !important;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "Arial", Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    background-color: #1c7430;
+    border-radius: 5px;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+.navbar-collapse a:hover {
+    text-align: center !important;
+}
+
+.caption {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #0e0e0e;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+.ribbon {
+    position: absolute;
+    background-color: red;
+    border-radius: 10px 0 10px 0;
+    top: 5px;
+    left: 5px;
+    color: #ffffff;
+    width: 20%;
+    text-align: center;
+
+}
+
+.category {
+    /*position: relative;*/
+    margin-top: 20px;
+    display: block;
+    background-color: #1b1e21;
+    /*border-radius: 15px;*/
+    /*height: 400px;*/
+    padding-left: 0px;
+    /*padding: 10px;*/
+    height: 372px;
+    /*padding: 10px 0 10px 0;*/
+
+}
+
+.category > span {
+    display: block;
+    /*position: relative;*/
+    color: #0e0e0e;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #b8daff;
+    /*padding-top: 30px;*/
+    margin-left: 0 !important;
+    line-height: 50px;
+}
+
+.category li {
+    list-style: none;
+    display: block;
+    /*text-decoration: none;*/
+    /*text-align: center;*/
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.category li a {
+
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 50px;
+    /*margin: 10px 0 10px 3px;*/
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.category li a:hover {
+    color: #7ac142 !important;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+a i {
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#carouselExampleIndicators {
+    height: 100%;
+}
+
+#cart {
+    background-color: red;
 }
